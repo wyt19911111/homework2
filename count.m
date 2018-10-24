@@ -20,8 +20,16 @@ s
 fclose(fid);
 
 fid=fopen('work.txt')
+t=0;
+while ~feof(fid) %是否读取到文件结尾
+    [~]=fgets(fid); 
+    t=t+1;   %行数累加
+end
+fclose(fid); 
+t 
+
+fid=fopen('work.txt')
 row=textscan(fid,'%s','delimiter','\n') %将回车设为定界符
-t=length(row{1}) %统计共有几行
 a=row{1}
 str='';
 sp=0;
