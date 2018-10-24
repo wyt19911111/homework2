@@ -12,7 +12,7 @@ fid=fopen('work.txt')
 s=0;  %句子数赋初值为0
 for j=1:c       
     mark=fscanf(fid,'%c',1);    %逐个字符读取文件内容
-    if mark=='.'   %判断读取的字符是否为句号
+    if mark=='.'|mark=='?'|mark=='!'    %判断读取的字符是否为句号
         s=s+1;   %字符如果为句号则累加1
     end
 end
