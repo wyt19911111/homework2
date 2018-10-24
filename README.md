@@ -6,7 +6,7 @@ c.例程运行及其相关结果:
 
 fid =
 
-     9
+    10
 
 
 ans =
@@ -21,7 +21,7 @@ c =
 
 fid =
 
-     9
+    10
 
 
 words =
@@ -43,7 +43,7 @@ ans =
 
 fid =
 
-     9
+    10
 
 
 s =
@@ -53,7 +53,7 @@ s =
 
 fid =
 
-     9
+    10
 
 
 t =
@@ -63,29 +63,22 @@ t =
 
 fid =
 
-     9
+    10
 
 
-row =
+sp =
 
-  cell
-
-    {9×1 cell}
+     0
 
 
-a =
-
-  9×1 cell 数组
+line =
 
     'Youth means a temperamental predominance of courage over timidity, of the appetite for adventure'
-    ''
-    'over the love of ease. This often exits in a man of 60, more than a boy of 20.nobody grows merely by'
-    ''
-    'the number of years; we grow old by deserting our ideas. Years may wrinkle the skin, but to give up'
-    ''
-    'enthusiasm wrinkles the soul. Worry, fear, self-distrust bows the heart and turns the spirit back to'
-    ''
-    'dust.'
+
+
+line =
+
+  空的 0×0 char 数组
 
 
 sp =
@@ -93,14 +86,54 @@ sp =
      1
 
 
+line =
+
+    'over the love of ease. This often exits in a man of 60, more than a boy of 20.nobody grows merely by'
+
+
+line =
+
+  空的 0×0 char 数组
+
+
 sp =
 
      2
 
 
+line =
+
+    'the number of years; we grow old by deserting our ideas. Years may wrinkle the skin, but to give up'
+
+
+line =
+
+  空的 0×0 char 数组
+
+
 sp =
 
      3
+
+
+line =
+
+    'enthusiasm wrinkles the soul. Worry, fear, self-distrust bows the heart and turns the spirit back to'
+
+
+line =
+
+  空的 0×0 char 数组
+
+
+sp =
+
+     4
+
+
+line =
+
+    'dust.'
 
 
 sp =
@@ -129,3 +162,6 @@ p =
 
 代码行数为
      5
+
+>> 
+>>
