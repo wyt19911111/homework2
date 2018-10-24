@@ -29,15 +29,14 @@ fclose(fid);
 t 
 
 fid=fopen('work.txt')
-row=textscan(fid,'%s','delimiter','\n') %将回车设为定界符
-a=row{1}
-str='';
-sp=0;
-for i=1:t
-    if strcmp(a{i,1},str)  %将空行与文本逐行进行比较，若一致则空行数+1，若不一致则空行数不变
+sp=0
+while ~feof(fid)
+    line=fgetl(fid)
+    if numel(line)==0
         sp=sp+1
     end
 end
+sp
 p=t-sp %计算出代码行数
 fclose(fid);
 disp('字符数为')
